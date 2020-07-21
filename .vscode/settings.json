@@ -1,0 +1,17 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 4,
+  "editor.rulers": [
+    88,
+    100,
+  ],
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--ignore=E203,W503",
+    "--max-line-length=100",
+  ],
+  "python.testing.pytestEnabled": true,
+}
