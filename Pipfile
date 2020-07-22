@@ -9,6 +9,7 @@ flake8 = "*"
 pytest = "*"
 
 [packages]
+click = "*"
 
 [requires]
 python_version = "3.8"
