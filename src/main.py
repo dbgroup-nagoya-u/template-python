@@ -18,7 +18,7 @@ if __name__ == "__main__":
     logger.error("error message")
     logger.critical("critical message")
 
-    # log_levelがWARNINGのため下記関数を読んだ際のログは出力されない
+    # log_levelがWARNINGのため下記関数を呼んだ際のログは出力されない
     sample_module.sample_func()
 
     # モジュール単位でlog_levelを下げることでログが出力されるようになる
