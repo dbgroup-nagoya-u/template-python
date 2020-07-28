@@ -34,8 +34,9 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "admin@db.is.i.nagoya-u.ac.jp"
           git add .
-          git commit -m "GitHub Actions: format with black"
-          git remote
+          if git commit -m "GitHub Actions: format with black"; then
+          git push origin ${GITHUB_REF}
+          fi
 
   # tests:
   #   runs-on: ubuntu-latest
