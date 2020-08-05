@@ -2,37 +2,40 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
 
-**Describe the bug**
+注：面倒なのでテンプレートは英語のままですが，もちろん日本語で書いてOKです．
+
+## Describe The Bug
+
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+## Execution Environment
+
+Please complete the following information:
+
+- Branch or Commit: [e.g., master, a031447a408dc9b31b015d2c596ca548cae7c38f]
+
+## To Reproduce
+
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+## Expected Behavior
+
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+## Screenshots
+
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Additional Context
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
 Add any other context about the problem here.
