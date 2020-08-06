@@ -26,4 +26,14 @@
     "--max-line-length=100",
   ],
   "python.testing.pytestEnabled": true,
+  "plantuml.diagramsRoot": "design_notes/figures/src",
+  "plantuml.exportOutDir": "design_notes/figures",
+  "plantuml.exportFormat": "svg",
+  "plantuml.exportSubFolder": false,
+  "cSpell.words": [
+    "Consolas",
+    "enduml",
+    "skinparam",
+    "startuml"
+  ],
 }
