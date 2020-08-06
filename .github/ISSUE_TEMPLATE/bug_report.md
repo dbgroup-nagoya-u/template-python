@@ -9,7 +9,7 @@ assignees: ''
 
 注：面倒なのでテンプレートは英語のままですが，もちろん日本語で書いてOKです．
 
-## Describe The Bug
+## Bug
 
 A clear and concise description of what the bug is.
 
