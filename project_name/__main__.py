@@ -12,7 +12,7 @@ LOG_FORMAT: Final = "%(asctime)s [%(name)s:%(levelname)s] %(message)s"
 
 @click.command()
 @click.option("--debug", is_flag=True, help="Output debug messages.")
-def _main(debug):
+def main(debug):
     # log設定
     logging.basicConfig(format=LOG_FORMAT)
     if debug:
@@ -36,4 +36,4 @@ def _main(debug):
 
 
 if __name__ == "__main__":
-    _main()
+    main()
