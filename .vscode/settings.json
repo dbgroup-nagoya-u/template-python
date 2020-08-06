@@ -26,4 +26,10 @@
     "--max-line-length=100",
   ],
   "python.testing.pytestEnabled": true,
+  "cSpell.words": [
+    "Consolas",
+    "enduml",
+    "skinparam",
+    "startuml"
+  ],
 }
