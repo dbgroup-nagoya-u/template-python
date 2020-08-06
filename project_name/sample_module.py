@@ -8,7 +8,7 @@ Sample module for template-python
 
 import logging
 
-from project_name import sample_module2
+from . import sample_module2
 
 logger = logging.getLogger(__name__)
 
