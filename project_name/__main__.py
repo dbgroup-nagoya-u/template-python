@@ -5,7 +5,7 @@ from typing import Final
 
 import click
 
-from project_name import sample_module
+from . import sample_module
 
 LOG_FORMAT: Final = "%(asctime)s [%(name)s:%(levelname)s] %(message)s"
 
