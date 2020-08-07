@@ -33,8 +33,13 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "admin@db.is.i.nagoya-u.ac.jp"
-          git commit -am "GitHub Actions: format with black"
-          git push
+          if git commit -am "GitHub Actions: format with black"; then
+            if [ ${{ github.event_name }} = "push" ]; then
+              git push origin master
+            else
+              git push origin ${{ github.head_ref }}
+            fi
+          fi
       - name: Lint with flake8
         run: |
           flake8 --ignore=E203,W503 --max-line-length=100 .
