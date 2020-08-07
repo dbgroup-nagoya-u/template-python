@@ -34,7 +34,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "admin@db.is.i.nagoya-u.ac.jp"
           if git commit -am "GitHub Actions: format with black"; then
-            git push origin HEAD:${GITHUB_REF}
+          git push
           fi
       - name: Lint with flake8
         run: |
