@@ -34,10 +34,10 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "admin@db.is.i.nagoya-u.ac.jp"
           if git commit -am "GitHub Actions: format with black"; then
-            if [ ${{ github.event_name }} = "push" ]; then
+            if [ "${{ github.event_name }}" = "push" ]; then
               git push origin master
             else
-              git push origin ${{ github.head_ref }}
+              git push origin HEAD:${{ github.head_ref }}
             fi
           fi
       - name: Lint with flake8
