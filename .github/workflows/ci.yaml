@@ -18,6 +18,8 @@ jobs:
         python-version: [3.8]
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -37,7 +39,7 @@ jobs:
             if [ "${{ github.event_name }}" = "push" ]; then
               git push origin master
             else
-              git push origin HEAD:${{ github.head_ref }}
+              git push origin ${{ github.head_ref }}
             fi
           fi
       - name: Lint with flake8
