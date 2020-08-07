@@ -32,6 +32,9 @@ jobs:
       - name: Format with black
         run: |
           black .
+      - name: Lint with flake8
+        run: |
+          flake8 --ignore=E203,W503 --max-line-length=100 .
       - name: Commit and push
         run: |
           git config --global user.name "GitHub Actions"
@@ -39,9 +42,6 @@ jobs:
           if git commit -am "GitHub Actions: format with black"; then
             git push
           fi
-      - name: Lint with flake8
-        run: |
-          flake8 --ignore=E203,W503 --max-line-length=100 .
 
   tests:
     runs-on: ubuntu-latest

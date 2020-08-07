@@ -7,7 +7,10 @@ import click
 
 from . import sample_module
 
-LOG_FORMAT: Final = "%(asctime)s [%(name)s:%(levelname)s] %(message)s"
+LOG_FORMAT: Final = "%(asctime)s [%(name)s:%(levelname)s] %(message)s                                      "
+
+
+
 
 
 @click.command()
