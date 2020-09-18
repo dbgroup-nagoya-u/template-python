@@ -11,6 +11,7 @@
   },
   "files.exclude": {
     "**/.venv/**": true,
+    "**/venv/**": true,
     "**/__pycache__/**": true,
     "**/.pytest_cache/**": true,
   },
@@ -19,6 +20,7 @@
   },
   "python.languageServer": "Microsoft",
   "python.venvPath": "${workspaceFolder}/.venv",
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
   "python.formatting.provider": "black",
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
@@ -26,6 +28,9 @@
     "--max-line-length=100",
   ],
   "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
   "plantuml.diagramsRoot": "design_notes/figures/src",
   "plantuml.exportOutDir": "design_notes/figures",
   "plantuml.exportFormat": "svg",
