@@ -1,6 +1,6 @@
 # project_name
 
-![Python 3.9](https://github.com/dbgroup-nagoya-u/python-template/workflows/Python%203.9/badge.svg?branch=main)
+[![Python 3.9](https://github.com/dbgroup-nagoya-u/template-python/actions/workflows/push.yaml/badge.svg)](https://github.com/dbgroup-nagoya-u/template-python/actions/workflows/push.yaml)
 
 ## 概要
 
