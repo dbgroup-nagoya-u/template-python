@@ -18,9 +18,6 @@
   "terminal.integrated.env.linux": {
     "PIPENV_VENV_IN_PROJECT": "true",
   },
-  "python.languageServer": "Microsoft",
-  "python.venvPath": "${workspaceFolder}/.venv",
-  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
   "python.formatting.provider": "black",
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
