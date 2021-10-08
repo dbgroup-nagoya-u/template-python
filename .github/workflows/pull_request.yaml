@@ -3,6 +3,8 @@ name: CI for Pull Request
 on:
   # Trigger the workflow on pull request,
   pull_request:
+    branches:
+      - main
 
 jobs:
   format_lint_and_tests:
@@ -14,6 +16,8 @@ jobs:
 
       - name: Clone repository
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
