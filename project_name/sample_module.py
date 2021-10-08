@@ -25,8 +25,7 @@ def sample_func() -> int:
 
 class SampleClass:
     def __init__(self):
-        """Sample class for sample_module
-        """
+        """Sample class for sample_module"""
         logger.debug("run constructor for SampleClass.")
 
     def sample_func(self) -> int:
