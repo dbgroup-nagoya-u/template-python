@@ -1,5 +1,7 @@
 # project_name
 
+![Python 3.9](https://github.com/dbgroup-nagoya-u/python-template/workflows/Python%203.9/badge.svg?branch=main)
+
 ## 概要
 
 ## 必要条件
