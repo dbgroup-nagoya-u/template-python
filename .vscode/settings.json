@@ -16,6 +16,8 @@
     "**/.pytest_cache/**": true,
   },
   "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
     "--ignore=E203,W503",
