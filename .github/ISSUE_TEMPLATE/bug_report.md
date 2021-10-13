@@ -17,7 +17,7 @@ A clear and concise description of what the bug is.
 
 Please complete the following information:
 
-- Branch or Commit: [e.g., ma, a031447a408dc9b31b015d2c596ca548cae7c38f]
+- Branch or Commit: [e.g., main, a031447a408dc9b31b015d2c596ca548cae7c38f]
 
 ## To Reproduce
 
