@@ -15,10 +15,9 @@
     "**/__pycache__/**": true,
     "**/.pytest_cache/**": true,
   },
-  "terminal.integrated.env.linux": {
-    "PIPENV_VENV_IN_PROJECT": "true",
-  },
   "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
     "--ignore=E203,W503",
@@ -26,12 +25,8 @@
   ],
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": [
-    "tests"
+    "test"
   ],
-  "plantuml.diagramsRoot": "design_notes/figures/src",
-  "plantuml.exportOutDir": "design_notes/figures",
-  "plantuml.exportFormat": "svg",
-  "plantuml.exportSubFolder": false,
   "cSpell.words": [
     "consolas",
     "venv",
