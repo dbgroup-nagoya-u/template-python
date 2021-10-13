@@ -15,9 +15,6 @@
     "**/__pycache__/**": true,
     "**/.pytest_cache/**": true,
   },
-  "terminal.integrated.env.linux": {
-    "PIPENV_VENV_IN_PROJECT": "true",
-  },
   "python.formatting.provider": "black",
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Args": [
