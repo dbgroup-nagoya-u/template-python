@@ -27,10 +27,6 @@
   "python.testing.pytestArgs": [
     "test"
   ],
-  "plantuml.diagramsRoot": "design_notes/figures/src",
-  "plantuml.exportOutDir": "design_notes/figures",
-  "plantuml.exportFormat": "svg",
-  "plantuml.exportSubFolder": false,
   "cSpell.words": [
     "consolas",
     "venv",
