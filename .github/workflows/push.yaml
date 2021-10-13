@@ -40,7 +40,7 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pytest tests
+          pytest test
 
       - name: Commit formatted sources and push
         run: |
