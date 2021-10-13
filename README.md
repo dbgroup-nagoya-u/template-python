@@ -1,4 +1,4 @@
-# project_name
+# package_name
 
 [![Python 3.9](https://github.com/dbgroup-nagoya-u/template-python/actions/workflows/push.yaml/badge.svg)](https://github.com/dbgroup-nagoya-u/template-python/actions/workflows/push.yaml)
 
@@ -7,13 +7,13 @@
 ### Installation
 
 ```bash
-pip install -e git+ssh://git@github.com/dbgroup-nagoya-u/template-python.git#egg=project_name
+pip install -e git+ssh://git@github.com/dbgroup-nagoya-u/template-python.git#egg=package_name
 ```
 
 ### Run Module
 
 ```bash
-python -m project_name [options...] [args...]
+python -m package_name [options...] [args...]
 ```
 
 ### Using as a Library

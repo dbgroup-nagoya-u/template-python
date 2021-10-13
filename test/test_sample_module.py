@@ -1,6 +1,6 @@
 # coding=utf-8
 
-from project_name import sample_module
+from package_name import sample_module
 
 
 def test_sample_function():
