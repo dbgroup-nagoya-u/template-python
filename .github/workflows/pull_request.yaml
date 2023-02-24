@@ -29,11 +29,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install pipenv
           pipenv sync -d
-          pip install -r <(pipenv run pip freeze)
 
       - name: Format with black
         run: |
-          black .
+          pipenv run black .
 
       - name: Commit and push
         run: |
@@ -45,8 +44,8 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 --ignore=E203,W503 --max-line-length=100 .
+          pipenv run flake8 --ignore=E203,W503 --max-line-length=100 .
 
       - name: Test with pytest
         run: |
-          pytest test
+          pipenv run pytest test
