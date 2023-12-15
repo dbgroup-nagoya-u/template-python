@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "visualstudioexptteam.vscodeintellicode",
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker",
+    "shd101wyy.markdown-preview-enhanced",
+    "ms-python.flake8",
+    "ms-python.black-formatter",
+  ]
+}
